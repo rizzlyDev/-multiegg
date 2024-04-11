@@ -6,21 +6,16 @@ function display {
     ==========================================================================
     
 
-$(tput setaf 6)███████╗███████╗██╗░░██╗██╗░░██╗██╗░░░██╗██████╗░
-$(tput setaf 6)██╔════╝██╔════╝╚██╗██╔╝██║░░██║██║░░░██║██╔══██╗
-$(tput setaf 6)█████╗░░█████╗░░░╚███╔╝░███████║██║░░░██║██████╦╝
-$(tput setaf 6)██╔══╝░░██╔══╝░░░██╔██╗░██╔══██║██║░░░██║██╔══██╗
-$(tput setaf 6)██║░░░░░███████╗██╔╝╚██╗██║░░██║╚██████╔╝██████╦╝
-$(tput setaf 6)╚═╝░░░░░╚══════╝╚═╝░░╚═╝╚═╝░░╚═╝░╚═════╝░╚═════╝░  
+  
 
     ==========================================================================
     "  
 }
 
 function forceStuffs {
-  curl -O https://cdn.discordapp.com/attachments/946264593746001960/969858011357151252/FE_1.png
+  curl -O 
   
-  echo "motd=Powered by Fexhub | Change this motd in server.properties" >> server.properties
+  echo "motd=Powered by rizz | Change this motd in server.properties" >> server.properties
 }
 
 function launchJavaServer {
